@@ -1,0 +1,147 @@
+:root {
+  box-sizing: border-box;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body,
+html {
+  /* background-image: url(background.jpg);
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 20vh;
+  padding: 20vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+
+  display: flex;
+  height: 100%;
+  margin: 0;
+  flex-direction: column;
+  background-image: url(https://images.unsplash.com/photo-1547093349-65cdba98369a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+.wrapper {
+  backdrop-filter: blur(5px);
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+.card {
+  user-select: none;
+  background-color: rgb(241, 166, 67);
+  padding: 60px 15px 15px 15px;
+  border-radius: 20px;
+  position: relative;
+  /* height: 60vh; */
+  width: 600px;
+}
+#portrait {
+  /* position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10vw;
+  height: 10vw;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid rgb(241, 166, 67); */
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  /* border: 5px solid white; */
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  /* background-position: center; */
+  border-radius: 50%;
+}
+#name {
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(14, 15, 15);
+  text-align: center;
+  margin-top: 30px;
+}
+#quote {
+  font-family: "Dancing Script", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 60px;
+  /* text-align: calc(center - 10px); */
+}
+#quote1 {
+  font-family: "Dancing Script", cursive;
+  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: end;
+  margin-right: 60px;
+}
+#author {
+  text-align: end;
+  font-style: italic;
+  padding: 5px;
+}
+.description div {
+  text-align: center;
+  padding: 10px;
+}
+.fb {
+  color: #468bf1;
+}
+#icon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  align-content: center;
+  margin-bottom: 00px;
+  margin-top: 10px;
+  font-size: 30px;
+  /* padding-inline: 20px 20px 20px 20px; */
+}
+#x {
+  color: purple;
+  padding: 0px 0px 0px 10px;
+}
+#blur {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* backdrop-filter: blur(8px); */
+}
+.wrapper {
+  padding-top: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  align-content: center;
+  margin-bottom: 10px;
+  padding-inline: 20px 20px 20px 20px;
+}
